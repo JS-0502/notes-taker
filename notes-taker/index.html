@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>Document</title>
+</head>
+<body>
+    <Section class="navbar">
+        <h1>Note-taking app</h1>
+    </Section>
+
+    <Section class="main">
+        <h1>Create Note</h1>
+        <label id="note-title">Title</label>
+        <input id="title" type="text"/>
+        <label id="note-body">Body</label>
+        <textarea class="textarea resize-ta"></textarea>
+        <label for="Color"></label>
+        <Select name="color" id="color">
+            <option value="red" selected>Red</option>
+            <option value="green" >green</option>
+            <option value="Blue" >Blue</option>
+        </Select> 
+        <p id="error"></p>
+        <Button id="createBtn">Create Note</Button> 
+    </Section>
+
+    <Section class="notes">
+            <hr>
+            <h2>Notes</h2>
+            <div id="notes-li"></div>
+            <p id="demo"></p>
+         
+    </Section>
+    <script src="script.js"></script>
+</body>
+</html>
