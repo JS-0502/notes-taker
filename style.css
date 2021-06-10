@@ -141,7 +141,7 @@ body{
 }
 
 .deletebtn {
-    
+    cursor: pointer;
     
     background-color: rgb(155, 7, 7);
     padding: 5px 10px 5px 0px;
